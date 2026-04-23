@@ -1,39 +1,3 @@
-# Una constructora necesita un programa para estimar el costo de un proyecto en base a materiales y mano de obra.
-# El programa debe:
-# 1.	Solicitar al usuario: 
-# Nombre del proyecto 
-# Cantidad de metros cuadrados a construir 
-# Costo por metro cuadrado 
-# Cantidad de trabajadores 
-# Pago por trabajador 
-# 2.	Definir las siguientes constantes: 
-# IVA = 0.19 
-# PRESUPUESTO_MAXIMO = 50000000 (50 millones) 
-# 3.	Validar que todos los datos numéricos: 
-# Sean números válidos 
-# Sean mayores que 0
-# En caso de error, manejar la situación con try-except. 
-# 4.	Calcular: 
-# Costo de materiales = metros cuadrados × costo por metro 
-# Costo de mano de obra = trabajadores × pago por trabajador 
-# Costo neto = suma de ambos 
-# IVA aplicado 
-# Costo total del proyecto 
-# 5.	Usar variables auxiliares para almacenar cálculos intermedios. 
-# 6.	Determinar el estado del proyecto: 
-# Si el costo total es menor o igual al presupuesto → Dentro del presupuesto 
-# Si supera el presupuesto hasta en un 10% → Presupuesto ajustado 
-# Si supera en más de un 10% → Fuera de presupuesto 
-# 7.	Mostrar un resumen con: 
-# Nombre del proyecto 
-#Costo total (redondeado a 2 decimales) 
-# Estado del proyecto 
-# ________________________________________
-#  Condiciones
-# •	Debe utilizar try-except para evitar errores de entrada. 
-# •	Debe usar if, elif y else. 
-# •	Debe definir y utilizar constantes correctamente. 
-# •	El programa no debe terminar abruptamente ante errores.
 import os
 os.system("cls")
 IVA = 0.19
